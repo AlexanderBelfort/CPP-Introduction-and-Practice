@@ -28,3 +28,8 @@ int main() {
 	return 0;
 
 }
+
+//Instructions:
+
+//$ g++ bmi.cpp bmi -o
+//$ ./bmi
