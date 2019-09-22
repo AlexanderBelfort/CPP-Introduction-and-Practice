@@ -1,5 +1,5 @@
 // ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// This app is about keeping target weight for interplanetary boxers
 
 #include "pch.h"
 #include <iostream>
