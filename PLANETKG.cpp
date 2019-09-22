@@ -6,10 +6,12 @@
 
 int main() {
 
+	//introduce main variables
 	double weight;
 
 	int planet;
-
+	
+	//ask boxer(user) for his weight and prefered planet
 	std::cout << "Your weight on EARTH: ";
 	std::cin >> weight;
 
@@ -19,7 +21,9 @@ int main() {
 
 	std::cout << "Which planet are you boxing in?";
 	std::cin >> planet;
-
+	
+	//use his input to intialize the right output
+	//these values have been taken from NASA
 	if (planet == 1) {
 
 		weight = weight * 0.78;
@@ -52,7 +56,14 @@ int main() {
 
 		weight = weight * 1.23;
 	}
-
+	
+	//finalize the output
 	std::cout << "Your weight will be: " << weight;
 
 }
+
+
+//INSTRUCTIONS
+//To run
+//$ g++ space.cpp -o space
+//$ ./space
